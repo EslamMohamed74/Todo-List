@@ -19,6 +19,7 @@ window.onload = function() {
     let color = document.createElement('input');
     color.setAttribute('type', 'color');
     color.setAttribute('id', 'color_picker');
+    color.style.marginLeft = '5px';
 
     color.addEventListener('change', changeColor);
     color.value = item.color;
@@ -89,6 +90,7 @@ function createListElement() {
   let color = document.createElement('input');
   color.setAttribute('type', 'color');
   color.setAttribute('id', 'color_picker');
+  color.style.marginLeft = '5px';
 
   color.addEventListener('change', changeColor);
 
